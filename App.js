@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Fish is watching. Fish is observing. Fish knows.</Text>
+      <Text style={styles.texto}>Fish is watching. Fish is observing. Fish knows.</Text>
     </View>
   );
 }
@@ -12,8 +12,11 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: 'rgb(0,25,50)',
     alignItems: 'center',
     justifyContent: 'center',
   },
+  texto:{
+    color: 'rgb(250,250,250)'
+  }
 });
