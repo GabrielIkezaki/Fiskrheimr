@@ -1,14 +1,10 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-
+import Routes from "./routes";
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text style={styles.texto}>Fish is watching. Fish is observing. Fish knows.</Text>
-    </View>
-  );
+    return<Routes/>
 }
 
+/*
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -19,4 +15,4 @@ const styles = StyleSheet.create({
   texto:{
     color: 'rgb(250,250,250)'
   }
-});
+});*/
